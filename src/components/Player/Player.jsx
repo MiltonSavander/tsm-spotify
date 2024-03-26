@@ -23,7 +23,7 @@ const Player = ({ spotifyApi, token }) => {
 
 		window.onSpotifyWebPlaybackSDKReady = () => {
 			const player = new window.Spotify.Player({
-				name: 'Milton Player 3',
+				name: 'Milton clone Player',
 				getOAuthToken: (cb) => {
 					cb(token);
 				},
