@@ -42,7 +42,7 @@ const Playlist = ({ spotifyApi, token }) => {
 	}, [id, spotifyApi, token, formatSongs]);
 
 	return (
-		<Box id="Playlist__page" sx={{ backgroundColor: 'background.paper', flex: 1, overflowY: 'autos' }}>
+		<Box id="Playlist__page" sx={{ backgroundColor: 'background.paper', flex: 1, overflowY: 'auto' }}>
 			<Box
 				p={{ xs: 3, md: 4 }}
 				sx={{

@@ -15,11 +15,9 @@ const spotifyApi = new SpotifyWebApi({
 });
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-	<React.StrictMode>
-		<BrowserRouter>
-			<ThemeProvider theme={themeOptions}>
-				<App spotifyApi={spotifyApi} />
-			</ThemeProvider>
-		</BrowserRouter>
-	</React.StrictMode>
+	<BrowserRouter>
+		<ThemeProvider theme={themeOptions}>
+			<App spotifyApi={spotifyApi} />
+		</ThemeProvider>
+	</BrowserRouter>
 );

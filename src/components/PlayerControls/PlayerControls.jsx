@@ -49,7 +49,7 @@ const PlayerControls = ({ progress, is_paused, duration, player }) => {
 					sx={{ color: 'text.primary' }}
 					onClick={() => {
 						setCurrentProgress(0);
-						player.NextTrack();
+						player.nextTrack();
 					}}
 				>
 					<SkipNext sx={skipStyle} />
