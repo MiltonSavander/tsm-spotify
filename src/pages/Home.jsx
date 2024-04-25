@@ -18,7 +18,7 @@ const Home = () => {
 					}}
 				/>
 			</Box>
-			<Button size="large" variant="contained" href="tel:+46760085602">
+			<Button size="large" variant="contained" href="mailto:milton.savander@gmail.com">
 				kontakta mig
 			</Button>
 		</Box>
